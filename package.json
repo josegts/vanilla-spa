@@ -1,0 +1,21 @@
+{
+  "name": "cientifico",
+  "version": "1.0.0",
+  "description": "des",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack ---mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.2.1",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^5.1.3",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
